@@ -158,11 +158,21 @@ a {
   font-size: clamp(12px, 3.73vw, 14px);
   box-shadow: 0 0 10px rgba(0, 0, 10, 0.12);
 }
-.links__list > *:hover {
-  background-color: hsl(75, 94%, 57%);
+@media (hover: hover) {
+  .links__list li:hover {
+    background-color: hsl(75, 94%, 57%);
+  }
+  .links__list li:hover a {
+    color: hsl(0, 0%, 12%);
+  }
 }
-.links__list > *:hover a {
-  color: hsl(0, 0%, 12%);
+@media (hover: none) {
+  .links__list li:active {
+    background-color: hsl(75, 94%, 57%);
+  }
+  .links__list li:active a {
+    color: hsl(0, 0%, 12%);
+  }
 }
 
 .attribution {

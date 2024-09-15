@@ -25,6 +25,14 @@
 
 ![Превью проекта](./assets/preview/preview.png)
 
+### Для десктопных устройств
+
+![Hover](./assets/preview/preview-hover.png)
+
+### Для мобильных устройств
+
+![Active](./assets/preview/preview-mobile.png)
+
 ## Ссылки
 
 - [Frontend Mentor - Профиль социальных ссылок](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6g3g7j2Qw)

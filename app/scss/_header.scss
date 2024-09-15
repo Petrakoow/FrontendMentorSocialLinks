@@ -1,0 +1,30 @@
+.card__profile {
+  margin-bottom: 24px;
+}
+
+.info__img {
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 20px;
+}
+
+.caption {
+  .caption__title {
+    font-size: clamp(18px, 6.4vw, 20px);
+    @include textPattern(600, 200%, 0.4px);
+  }
+
+  .caption__location {
+    font-size: clamp(10px, 3.2vw, 12px);
+    color: $Green;
+    @include textPattern(700, 150%, 0.1px);
+    margin-bottom: 24px;
+  }
+
+  .caption__description {
+    font-size: clamp(10px, 3.2vw, 12px);
+    @include textPattern(400, 150%, 0.4px);
+  }
+}
+

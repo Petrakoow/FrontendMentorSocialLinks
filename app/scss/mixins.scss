@@ -1,0 +1,5 @@
+@mixin textPattern($weight, $height, $space){
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $space;
+}

@@ -1,0 +1,41 @@
+.wrapper__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__card {
+  background-color: $Grey800;
+  color: $White;
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 375px;
+  min-width: 280px;
+}
+
+.links__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  li {
+    padding: 15px 0;
+    background-color: $Grey700;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: clamp(12px, 3.73vw, 14px);
+    box-shadow: 0 0 10px rgb(0 0 10 / 0.12);
+  }
+
+
+  > *:hover{
+    background-color: $Green;
+
+    a {
+      color: $Grey800;
+    }
+  }
+}
